@@ -37,3 +37,25 @@
     4px 4px 0 #00ff00, 5px 5px 0 #ffff00, 6px 6px 0 #ff7f00, 7px 7px 0 #ff0000,
     25px 35px rgba(255, 255, 255, 0.1);
 }
+
+.neon-button {
+  background: none;
+  width: 200px;
+  font-size: 20px;
+  padding: 10px;
+  border: 3px solid #ffff00;
+  color: white;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  font-family: "Source Sans Pro", sans-serif;
+  box-shadow: 1px 1px 0 #9400d3, 2px 2px 0 #4b0082, 3px 3px 0 #0000ff,
+    4px 4px 0 #00ff00, 5px 5px 0 #ffff00, 6px 6px 0 #ff7f00, 7px 7px 0 #ff0000;
+}
+.neon-button:hover {
+  background-color: #ffff00;
+  color: black;
+}
