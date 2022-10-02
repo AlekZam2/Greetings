@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-------------->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <!-------------->
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="banner">
+      <div class="container">
+        <div id="scan">
+          <h2 id="text">
+            <span data-depth="2">g</span>
+            <span data-depth-y="3">r</span>
+            <span data-depth="3">e</span>
+
+            <span data-depth-y="-2">e</span>
+            <span data-depth="-1">t</span>
+            <span data-depth-y="-3">i</span>
+            <span data-depth="2">n</span>
+            <span data-depth="2">g</span>
+            <span data-depth="2">s</span>
+          </h2>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+      var text = document.getElementById("text");
+      var parallaxInstance = new Parallax(text);
+    </script>
+  </body>
+</html>
